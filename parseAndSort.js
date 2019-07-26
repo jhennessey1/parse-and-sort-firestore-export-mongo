@@ -26,16 +26,6 @@ function parseAndSaveEntities(fileName) {
 				}
 				console.log(fileName + ' was successfully created with ' + data.length + ' records')
 			})
-
-			// 	entityIds.forEach(function(entityId) {
-			// 		fs.writeFile(fileName + '/' + entityId + '.json', JSON.stringify(entities[entityId]), function(err) {
-			// 			if (err) {
-			// 				console.error(err);
-			// 				return;
-			// 			}
-			// 		})
-			// 	})
-			// });
 		})
 	})
 }
